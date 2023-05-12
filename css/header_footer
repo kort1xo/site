@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: opensans;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/OpenSans\ regular.ttf");
+}
+
+@font-face {
+    font-family: opensans;
+    font-weight: 600;
+    src: url("../fonts/OpenSans-Semibold.ttf");
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: 100px;
+}
+
+body {
+    font-family: "opensans", Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 16px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > .container {
+    padding: 40px 20px;
+}
+
+header .container .menu a {
+    font-size: 0.875em;
+    text-decoration: none;
+    color: #4b4b4e;
+    margin: 0 20px;
+}
+
+header .container .menu a:hover
+{
+    color: #dfa52b;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #ebb217;
+}
+
+header .container .menu a.active {
+    color: #dfa52b;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #ebb217;
+}
+
+body .info h1 {
+    padding-top: 1px;
+    margin-left: 40%;
+    font-size: 1.5em;
+    color: #3b4b4e;
+}
+
+body .table {
+    margin-left: 3%;
+    padding-top: 20px;
+}
+
+body .info .table .kartinka {
+    padding-left: 500px;
+    padding-top: 50px;
+}
+
+body .info2 h1 {
+    padding-top: 50px;
+    margin-left: 40%;
+    font-size: 1.5em;
+    color: #3b4b4e;
+}
+
+body .table2 {
+    margin-left: 3%;
+    padding-top: 20px;
+}
+
+body .info2 .table2 .posle {
+    padding-left: 400px;
+}
